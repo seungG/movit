@@ -297,7 +297,7 @@ footer a {
 .spinner-master {
   position: relative;
   margin: 15px;
-  height: 30px;
+  /* height: 30px; */
   width: 30px;
   float: left;
 }
