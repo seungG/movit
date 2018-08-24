@@ -60,8 +60,7 @@
    <section id="intro" class="intro">
       <!---------------------- 수정 : 로고 이미지 + 사이트명 -------------------->
       <div class="slogan">
-         <a href="index.jsp"> <img src="img/logo.png" alt="" /> <img
-            src="img/BI_engpng.png" alt="" /></a>
+         <a href="index.jsp"> <img src="img/logo.jpg" alt="" /></a>
       </div>
    </section>
    <!-- /Section: intro -->
@@ -108,7 +107,7 @@
    <!-- Navigation end -->
 
    <!-- Section: gallery -->
-   <section id="gallery" class="home-section text-center ">
+   <section id="gallery">
       <div class="banner" id="home">
          <div class="container-fluid">
                      <div id="myCarousel" class="carousel slide" data-ride="carousel"
@@ -152,11 +151,11 @@
 
    <footer>
       <div class="container">
-         <div class="row">
+         <!-- <div class="row"> -->
             <div class="col-md-12 col-lg-12">
                <p>&copy; Copyright 2018 Moviemovit</p>
             </div>
-         </div>
+         <!-- </div> -->
       </div>
    </footer>
 
