@@ -53,15 +53,55 @@
 
 <script src="js/script.js"></script>
 
+<style>
+#loginmenu ul {
+   list-style: none;
+   font-weight:bold;
+   /*좌측 여백 없애기*/
+   padding-left: 0px;
+   /* 우측 정렬 하기 */
+   text-align:right;
+   padding:1px 5px 5px 1px;
+}
+
+#loginmenu ul li {
+   display: inline;
+   /*li요소의 좌측에 1px의 테두리 만들기*/
+   border-left: 1px solid #c0c0c0;
+   /* 테두리와 메뉴 간격 벌리기. padding(기준으로부터 내부의 간격): 위 오른쪽 아래 왼쪽; */
+   padding: 0px 10px 0px 30px;
+   /* 메뉴와 테두리 사이 간격 벌리기. margin(기준으로부터 외부의 간격): 위 오른쪽 아래 왼쪽; */
+   margin: 5px 10px 5px 10px;
+}
+
+#loginmenu ul li:first-child {
+   /*li의 첫번째 요소의 좌측에서 테두리 없애기*/
+   border-left: none;
+}
+
+a, a:hover, a:focus{
+   color:black;
+}
+
+</style>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+   <!-- 로그인/로그아웃 menu -->
+   <div id="loginmenu">
+   <ul>
+      <li><a href="#Link" title="Link">Login</a></li>
+      <li><a href="#Link" title="Link">Join</a></li>
+   </ul>
+   </div>
+   <!-- 로그인/로그아웃 menu end -->
+
    <!-- Section: intro -->
    <section id="intro" class="intro">
       <!---------------------- 수정 : 로고 이미지 + 사이트명 -------------------->
       <div class="slogan">
-         <a href="index.jsp"> <img src="img/logo.png" alt="" /> <img
-            src="img/BI_engpng.png" alt="" /></a>
+         <a href="index.jsp"> <img src="img/logo.jpg" alt="" /></a>
       </div>
    </section>
    <!-- /Section: intro -->
@@ -111,7 +151,3 @@
    <section id="gallery" class="home-section text-center ">
       <div class="banner" id="home">
          <div class="container-fluid">
-</div>
-</div>
-
-</section>
